@@ -115,7 +115,7 @@ cy-e2eburguer/
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias.
 
 ## 📌 Notas Gerais
-Feito por [Aline Areda](https://github.com/MarcosAtayde) 😊
+Feito por [Marcos Atayde](https://github.com/MarcosAtayde) 😊
 
 
 
