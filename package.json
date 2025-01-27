@@ -1,0 +1,7 @@
+{
+  "name": "CY-E2EBURGUER",
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "cypress": "^14.0.0"
+  }
+}
