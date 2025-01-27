@@ -1,6 +1,6 @@
 describe('Login', () => {
 
-  it('pLogin realixado com sucesso', () => {
+  it('pLogin realizado com sucesso', () => {
     cy.visit('/')
     cy.get('#email').type('teste.qa@gmail.com')
     cy.get('#password').type('Teste@123!')

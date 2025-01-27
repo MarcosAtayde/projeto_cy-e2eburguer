@@ -28,3 +28,15 @@ Cypress.Commands.add('verificarMsgErro', (msgErro) => {
 
 })
 
+Cypress.Commands.add('verificarPage', (rota, tituloPage) => {
+    cy.url().should('include', `${rota}`)
+    cy.contains('h1', tituloPage)
+})
+
+Cypress.Commands.add('verificarUsuarioLogado', (name) => {
+    const nomeUsuario = name.split(' ')[0]
+    cy.get('[data-testid="user-greeting"]')
+        .should('be.visible')
+        .and('contain.text', `Olá, ${nomeUsuario}!`)
+
+})
